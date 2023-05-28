@@ -74,7 +74,7 @@ export function getData() {
 	}
 
 	showNextInfo();
-	setInterval(showNextInfo, 10000);
+	setInterval(showNextInfo, 15000);
 
 	// EVENTS
 	const eventData = {};
@@ -140,5 +140,5 @@ export function getData() {
 	}
 
 	showNextEvent();
-	setInterval(showNextEvent, 10000);
+	setInterval(showNextEvent, 15000);
 }

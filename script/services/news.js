@@ -23,6 +23,6 @@ export function getNews() {
 		setTimeout(() => {
 			const newIndex = (index + 1) % data.articles.length;
 			showNewsData(data, newIndex);
-		}, 10000);
+		}, 15000);
 	}
 }

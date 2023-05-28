@@ -28,6 +28,7 @@ body {
 /* TOP-BANNER */
 
 .top-banner {
+  margin-bottom: 0.5vh;
   padding-top: 0.5rem;
   display: flex;
   background-color: var(--banner-color);
@@ -216,7 +217,7 @@ body {
 
 .weather-container {
   background-image: url(/images/pexels-fwstudio-172289.jpg);
-  height: 48%;
+  height: 48.5%;
   width: auto;
   font-family: 'Lato';
   display: flex;
@@ -294,6 +295,7 @@ body {
 
 
 .bottom-banner {
+  margin-top: 0.5vh;
   z-index: 99;
   padding: 2vh 3vw;
   height: auto;
